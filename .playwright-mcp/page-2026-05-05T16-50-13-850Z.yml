@@ -1,0 +1,41 @@
+- generic [ref=e2]:
+  - region "Notifications (F8)":
+    - list
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - link "V Valentino's Magic Beans" [ref=e6] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e8]: V
+          - heading "Valentino's Magic Beans" [level=1] [ref=e10]
+        - navigation [ref=e11]:
+          - link "Home" [ref=e12] [cursor=pointer]:
+            - /url: /
+          - link "Shop" [ref=e13] [cursor=pointer]:
+            - /url: /products
+          - link "Contact" [ref=e14] [cursor=pointer]:
+            - /url: /contact
+        - generic [ref=e15]:
+          - generic [ref=e16]:
+            - link "Login" [ref=e17] [cursor=pointer]:
+              - /url: /login
+              - button "Login" [ref=e18]
+            - link "Sign Up" [ref=e19] [cursor=pointer]:
+              - /url: /signup
+              - button "Sign Up" [ref=e20]
+          - link [ref=e21] [cursor=pointer]:
+            - /url: /cart
+            - button [ref=e22]:
+              - img
+    - main [ref=e23]:
+      - generic [ref=e24]:
+        - heading "Your cart is empty" [level=2] [ref=e25]
+        - paragraph [ref=e26]: Looks like you haven't added any magic beans yet.
+        - link "Explore Our Products" [ref=e27] [cursor=pointer]:
+          - /url: /products
+          - button "Explore Our Products" [ref=e28]
+    - contentinfo [ref=e29]:
+      - generic [ref=e30]:
+        - heading "Disclaimer" [level=2] [ref=e31]
+        - paragraph [ref=e32]: This is not a real shop; it is a project for demonstration and testing purposes only. Please do not provide any real personal or payment information. No real products will be shipped, and no real transactions will be processed. The owner assumes no liability for any data entered or actions taken on this site.
+        - paragraph [ref=e34]: "Version: 4397d47a | Built on: 2025-07-08"
