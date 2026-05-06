@@ -1,5 +1,13 @@
 import { test, expect } from '@playwright/test';
 
+/**
+ * E-Commerce Coffee Order Flow Tests
+ * 
+ * Test Scenario: Guest user purchases Brazilian Santos coffee
+ * - Product: Brazilian Santos ($22.99)
+ * - Flow: Product discovery → Cart → Checkout → Order confirmation
+ * - User: Guest (no authentication required)
+ */
 test.describe('E-Commerce Coffee Order Flow', () => {
   let orderID: string;
   let orderEmail: string;
